@@ -1,13 +1,15 @@
 <template>
-    $END$
+  <div>
+    <Auth/>
+  </div>
 </template>
 
 <script>
+  import Auth from '@/components/Auth.vue'
   export default {
-    name: 'Login'
+    name: 'Login',
+    components: {
+      Auth
+    }
   }
 </script>
-
-<style scoped>
-
-</style>
